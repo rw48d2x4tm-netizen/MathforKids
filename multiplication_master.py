@@ -254,6 +254,7 @@ def practice_table(number, name, operation):
         # Display question
         print_color(f"\n📝 Question {i} of {total_questions}", Colors.CYAN)
         print_color(f"{'─'*30}", Colors.CYAN)
+        print()
         
         while True:
             try:
